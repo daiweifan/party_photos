@@ -9,7 +9,7 @@
 </head>
 <body style="    background-color: RGB(0,23,31);">
  <audio src="../static/my_world.OGG" autoplay loop>HTML5 Music</audio>
-<div class="col-md-12">
+<div class="col-md-12 mb-20">
         <div class="col-md-6 col-sm-12 mb-20">
           <div id="container" class="mt-75"> </div>
         </div>
@@ -33,7 +33,12 @@
          
         </div>
 </div>
+<div class="clearfix"></div>
+<div class="col-md-12 " style="padding-top: 200px;">
+      
+  <div class="ds-thread" data-thread-key="{{page.id}}" data-title="{{page.title}}" data-url="localhost:4000/{{page.url}}"></div>
 
+</div>
 <script src='js/delaunay.js'></script> 
 <script src='js/TweenMax.js'></script> 
 <script>
@@ -313,5 +318,23 @@ Fragment.prototype = {
 <!-- <div style="text-align:center;margin:10px 0; font:normal 14px/24px 'MicroSoft YaHei';">
 <p>更多特效，请访问<a href="http://www.5iweb.com.cn/" target="_blank">网页特效库</a></p>
 </div> -->
+
+
+<!-- 多说评论框 start -->
+
+<!-- 多说评论框 end -->
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"david-inner"};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] 
+     || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+  </script>
+<!-- 多说公共JS代码 end -->
 </body>
 </html>
